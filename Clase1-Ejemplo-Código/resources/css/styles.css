@@ -1,0 +1,20 @@
+/* Selector de elemento/etiqueta */
+h1 {
+    color: red;
+}
+/* Selector de id, usar preferiblemente solo para funcionalidades en JS */
+#subtitulo {
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}
+/* Selector de clase */
+.estilo {
+    color: red;
+}
+.bold {
+    font-weight: bold;
+}
+/* Selector aninado */
+.contenedor-pricipal .aninado{
+    color: blueviolet;
+}
