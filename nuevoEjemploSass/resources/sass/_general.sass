@@ -1,0 +1,12 @@
+@import 'variables'
+@import 'mixin'
+.container
+    display: flex
+    justify-content: center
+    align-items: start
+    .item
+      background-color: $generalBg
+      h2
+        @include text($titleColor, 20px, 800)
+      p
+        @include text($bodyColor, 16px, 100)
