@@ -1,0 +1,51 @@
+.secondary-button, .general-button {
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 4px 18px;
+  transition: color 200ms ease-in-out 0s, background-color 200ms ease-in-out 0s, border-color 200ms ease-in-out 0s;
+  width: 100%;
+}
+
+.general-button {
+  background-color: rgb(255, 45, 96);
+  color: rgb(250, 250, 250);
+  border: none;
+}
+
+.secondary-button {
+  background-color: transparent;
+  color: rgb(255, 45, 96);
+  border: 1px solid rgb(255, 45, 96);
+}
+.secondary-button:hover {
+  background-color: rgb(255, 45, 96);
+  color: rgb(250, 250, 250);
+}
+
+.result {
+  color: rgb(255, 45, 96);
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.bg-dark {
+  background-color: #111 !important;
+}
+
+@media screen and (min-width: 1400px) {
+  .container {
+    max-width: 1446px !important;
+  }
+  .contact-link {
+    min-width: 136px;
+  }
+}
+.custom-drop {
+  background: rgb(0, 0, 0);
+  padding: 24px 24px 10px;
+  width: 250px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: rgb(250, 250, 250);
+}/*# sourceMappingURL=base.css.map */
