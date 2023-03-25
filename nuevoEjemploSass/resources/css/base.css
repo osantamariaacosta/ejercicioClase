@@ -1,18 +1,29 @@
-.container {
+.main-container .item {
+  box-shadow: 0px -6px 30px -7px rgba(0, 0, 0, 0.24);
+  -webkit-box-shadow: 0px -6px 30px -7px rgba(0, 0, 0, 0.24);
+  -moz-box-shadow: 0px -6px 30px -7px rgba(0, 0, 0, 0.24);
+}
+
+.main-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: start;
 }
-.container .item {
+.main-container .item {
   background-color: #e2e2e2;
 }
-.container .item h2 {
+.main-container .item h2 {
   color: #0b16ed;
   font-size: 20px;
   font-weight: 800;
 }
-.container .item p {
+.main-container .item p {
   color: #929292;
   font-size: 16px;
   font-weight: 100;
+}
+
+.cards-container {
+  height: 100vh;
+  background-color: #bdbdbd;
 }/*# sourceMappingURL=base.css.map */
