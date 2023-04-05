@@ -110,15 +110,79 @@
     </div>
     <div class="row">
       <div class="col-2 pt-3">
-        <button class="general-button" id="suma" onclick="sumar()">Sumar</button>
+        <button class="general-button" onclick="sumar()">Sumar</button>
       </div>
       <div class="col-2 pt-3">
-        <button class="secondary-button">Restar</button>
+        <button class="secondary-button" onclick="restar()">Restar</button>
       </div>
     </div>
     <div class="row">
       <div class="col-2 py-4">
         <p class="mb-0 result" id="result"></p>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="my-3">
+      <h2>Calc</h2>
+    </div>
+    <div>
+      <p class="mb-1">
+        <span id="cal1" class="number-calc"></span>
+        <span id="ope" class="number-calc-ope"></span>
+        <span id="cal2" class="number-calc"></span>
+        <span id="resultCalc" class="number-calc-ope"></span>
+        <span id="finalResult" class="number-calc"></span>
+      </p>
+    </div>
+    <div class="d-flex mb-1">
+      <div class="mx-1">
+        <button type="button" class="number-btn" onclick="entrada('7')">7</button>
+      </div>
+      <div class="mx-1">
+        <button type="button" class="number-btn"  onclick="entrada('8')">8</button>
+      </div>
+      <div class="mx-1">
+        <button type="button" class="number-btn" onclick="entrada('9')">9</button>
+      </div>
+      <div class="mx-1">
+        <button type="button" class="ope-btn" onclick="calc('suma')">+</button>
+      </div>
+    </div>
+    <div class="d-flex mb-1">
+      <div class="mx-1">
+        <button type="button" class="number-btn" onclick="entrada('4')">4</button>
+      </div>
+      <div class="mx-1">
+        <button type="button" class="number-btn" onclick="entrada('5')">5</button>
+      </div>
+      <div class="mx-1">
+        <button type="button" class="number-btn" onclick="entrada('6')">6</button>
+      </div>
+      <div class="mx-1">
+        <button type="button" class="ope-btn" onclick="calc('resta')">-</button>
+      </div>
+    </div>
+    <div class="d-flex mb-1">
+      <div class="mx-1">
+        <button type="button" class="number-btn" onclick="entrada('1')">1</button>
+      </div>
+      <div class="mx-1">
+        <button type="button" class="number-btn"onclick="entrada('2')">2</button>
+      </div>
+      <div class="mx-1">
+        <button type="button" class="number-btn" onclick="entrada('3')">3</button>
+      </div>
+      <div class="mx-1">
+        <button type="button" class="ope-btn" onclick="ejecutar()">=</button>
+      </div>
+    </div>
+    <div class="d-flex">
+      <div>
+        <button type="button" class="ze-btn" onclick="entrada('0')">0</button>
+      </div>
+      <div class="mx-1">
+        <button type="button" class="ope-btn" onclick="reset()">AC</button>
       </div>
     </div>
   </div>
